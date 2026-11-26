@@ -939,3 +939,72 @@
 //     }
 // }
 // iIstFridayToday()
+
+// let numbers = [1,5,2,16,17,58]
+// let newArr = []
+// for(let num of numbers){
+//     newArr.push(num*2)
+// }
+// console.log(newArr)
+
+// let numbers = [1,5,2,16,17,58]
+// console.log(numbers.map(num => num*2))
+// let strs = ['anna', 'ivan', 'nikolai']
+// console.log(strs.map(str => 'user name: ' + str))
+// let object = [
+//     {id:1, name:'vanya', age:20},
+//     {id:2, name:'misha', age:30},
+//     {id:3, name:'petya', age:40},
+// ]
+// console.log(object.map(obj => obj.name))
+
+// let numbers = [1,5,2,16,17,58]
+// let newArr = []
+// for(let num of numbers){
+//     if (num % 2 == 0){
+//         newArr.push(num)
+//     }
+// }
+// console.log(newArr)
+// console.log(numbers.filter(num=> num %2 == 0))
+
+// let phone = [
+//     '+7929394234',
+//     '234324234324',
+//     '+123124213',
+// ]
+// console.log(phone.filter(num => num.startsWith('+')))
+
+// let object = [
+//     {id:1, name:'vanya', age:10},
+//     {id:2, name:'misha', age:30},
+//     {id:3, name:'petya', age:40},
+// ]
+// console.log(object.filter(obj => obj.age >= 18))
+
+// let numbers = [1,5,2,16,17,58]
+// for (let num of numbers){
+//     if(num%2==0){
+//         console.log(num)
+//         break
+//     }
+// }
+// console.log(numbers.find(num => num % 2 == 0))
+
+// let numbers = [1,5,2,16,17,58]
+// for(let num of numbers){
+//     if(num % 2 !== 0){
+//         console.log(true)
+//         break
+//     }
+//     else{console.log(false)}
+// }
+// console.log(numbers.some(num => num%2!==0))
+// console.log(numbers.every(num => num%2!==0))
+
+let numbers = [1,5,2,16,17,58]
+let sum = 0
+for(let num of numbers){
+    sum+=num
+}
+console.log(sum)
